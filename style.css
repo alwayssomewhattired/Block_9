@@ -1,0 +1,29 @@
+* {
+  background-color: black;
+}
+
+* {
+  color: rgb(43, 255, 0);
+}
+
+#links:hover {
+  background-color: greenyellow;
+}
+
+.current:hover {
+  background-color: red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 71%;
+  position: relative;
+}
+
+.image2 {
+  position: absolute;
+  height: 30% !important;
+  width: 10%;
+  right: 0px;
+}
